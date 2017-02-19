@@ -30,7 +30,7 @@ class Synology_Api_Authenticate extends Synology_Abstract
      * @param string $login
      * @param string $password
      */
-    public function connect($login = 'admin', $password = 'tisoe4re')
+    public function connect($login = 'xxxx', $password = 'xxxx')
     {
         
         return $this->_authApi->connect($login, $password, $this->_sessionName);
